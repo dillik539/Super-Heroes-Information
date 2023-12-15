@@ -1,0 +1,30 @@
+
+body{
+margin: 2rem;
+background-color:rgb(241, 241, 241);
+}
+
+.container{
+    display: flex;
+    gap: 1rem;
+    max-width: 100%;
+    min-height: 700px;
+}
+.search-criteria{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    background-color:white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+.image-info{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 500px;
+}
+.random-image{
+    border: none;
+    border-radius: 1rem;
+}

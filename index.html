@@ -8,7 +8,34 @@
     </head>
     
     <body>
-        
+        <div class = "container">
+            <div class = "search-criteria">
+                <div class = "search">
+                    <input type="text">
+                    <button id="search-by">Search</button>
+                </div>
+                <div class = "search">
+                    <label for="info">
+                        Information About
+                    </label>
+                    <select name="info" id="info">
+                        <option class = "option" value="blank">Select One</option>
+                        <option class = "option" value="powerstat">Powerstats</option>
+                        <option class = "option" value="biography">Biography</option>
+                        <option class = "option" value="appearance">Appearance</option>
+                        <option class = "option" value="work">Work</option>
+                        <option class = "option" value="connection">Connections</option>
+                        <option class = "option" value="image">Image</option>
+                    </select>
+                </div>
+                <div class = "search">
+                    <button id="random-hero">Random Hero</button>
+                </div>
+            </div>
+            <div class = "image-info" id="image"><img class = "random-image" src="" alt="">
+            </div>
+            <div class = "image-info">Information Displays Here</div>
+        </div>
     </body>
-
+    <script src = "script.js"></script>
 </html>
